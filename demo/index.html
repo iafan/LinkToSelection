@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+            * {
+                border: 1px solid red;
+                padding: 0.2em 0.5em;
+            }
+
+            *:before {
+                content: attr(id);
+                color: red;
+                padding-right: 0.5em
+            }
+        </style>
+    </head>
+    <body>
+        This is how the script works:
+        <ol>
+            <li>Select any text on this page, even cross page elements</li>
+            <li>The hash will be updated with the encoded representaion of selection range: <code>#sel:xxxxxxxxxxxx</code></li>
+            <li>Reload the page, or copy the URL and open it in another tab or browser &mdash; once the page is loaded, the selection will be restored, and scrolled into view</li>
+        </ol>
+
+        <p>Pargraph 1</p>
+        <p>Pargraph 2. <span>Span with no ID inside</span></p>
+        <p>Pargraph 3</p>
+        <img src="https://imgs.xkcd.com/comics/hilighting.png" />
+        <p>Pargraph 4. <span id="span1">Span with ID inside.</span></p>
+        <div id="div1">
+            div
+            <p>Pargraph 5. <span id="span2">Span with ID inside.</span> Another text <em>with</em> <strong>different</strong> formatting.</p>
+        </div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <div style="height: 1000px"></div>
+        <p>Pargraph 6</p>
+        <div style="height: 1000px"></div>
+        <p>Pargraph 7</p>
+        <div style="height: 1000px"></div>
+        <p>Pargraph 8</p>
+        <script src="../lib/LinkToSelection.js"></script>
+    </body>
+</html>
+
