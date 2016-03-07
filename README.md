@@ -39,9 +39,6 @@ LinkToSelection was tested in:
   * Edge v.25
   * Internet Explorer (v.11)
 
-On Firefox prior to v.45 and on IE, script gets current selection via polling; on other browsers,
-where `onselectionchange` event is supported, it uses the latter.
-
 ### Caveats
 
 By their nature, links with encoded selection may not work if the other person who opens such a link sees a page with the different structure. This means that this script will work best on mostly static pages which are not password-protected and are not built on the fly from XHR requests.
