@@ -18,8 +18,8 @@ __Reporting errors__: your users can send you links to typos or other kinds of e
 
 Try any of these links that point to a specific selected content on [serge.io](https://serge.io/) website:
 
-  * [Link to a phrase](https://serge.io/#sel:ZGl2L2Rpdi4yL2Rpdi4zL2Rpdi9wLjEvQC1kaXYvZGl2LjIvZGl2LjMvZGl2L3AuMS9ALjE6Nzg)
-  * [Link to a section](https://serge.io/docs/dev/callbacks/#sel:I2FkZF9kZXZfY29tbWVudC9hLWRpdi9kaXYuMi9kaXYvZGl2LjEvcC41MS9AOjE3OA)
+  * [Link to a phrase](https://serge.io/#sel:ZGl2L2Rpdi4yL2Rpdi4zL2Rpdi9wLjEvQDoxMDctKjoxNjQ)
+  * [Link to a section](https://serge.io/docs/dev/callbacks/#sel:I2JlZm9yZV91cGRhdGVfZGF0YWJhc2VfZnJvbV9zb3VyY2VfZmlsZXMvYS1kaXYvZGl2LjIvZGl2L2Rpdi4xL3AuNy9ALjE6MTIw)
   * [Link to an image](https://serge.io/docs/localization-cycle/#sel:ZGl2L2Rpdi4yL2Rpdi9kaXYuMS9wLjItKjox)
 
 ### Usage
@@ -34,10 +34,10 @@ Just put the `LinkToSelection.min.js` file to an appropriate folder of your webs
 
 LinkToSelection was tested in:
 
-  * Chrome v.48
-  * Firefox v.44
-  * Edge v.25
-  * Internet Explorer (v.11)
+  * Chrome v.48 ... v.53
+  * Firefox v.44 ... v.48
+  * Edge v.25 ... v.38
+  * Internet Explorer v.11
 
 ### Caveats
 
