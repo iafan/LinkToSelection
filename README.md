@@ -27,22 +27,27 @@ Try any of these links that point to a specific selected content on [serge.io](h
 Just put the `LinkToSelection.min.js` file to an appropriate folder of your website, e.g. `/static/js/vendor/` and add the following script to the bottom of your web pages (before the closing `</body>` tag):
 
 ```html
-    <script src="/static/js/vendor/LinkToSelection.min.js"></script>
+<script src="/static/js/vendor/LinkToSelection.min.js"></script>
 ```
 
 ### Browser compatibility
 
 LinkToSelection was tested in:
 
-  * Chrome v.48 ... v.53
-  * Firefox v.44 ... v.48
-  * Edge v.25 ... v.38
-  * Internet Explorer v.11
+  * Desktop:
+    * Chrome 48+
+    * Firefox 44+
+    * Edge 25+
+    * Internet Explorer 11
+  * iOS:
+    * Safari
+    * Chrome
+  * Android:
+    * Chrome
+    * Firefox
 
 ### Caveats
 
 By their nature, links with encoded selection may not work if the other person who opens such a link sees a page with the different structure. This means that this script will work best on mostly static pages which are not password-protected and are not built on the fly from XHR requests.
 
-### Status
-
-This script wasn't thoroughly tested on older versions of browsers. It *may* conflict with other scripts that use `document.onload` and `document.onselectionchange` event handlers, or that use URL hash for their own purposes. Use at your own risk.
+The script *may* conflict with other scripts that use `document.onselectionchange` event handler or URL hash for their own purposes.
